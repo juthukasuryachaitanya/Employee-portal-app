@@ -1,16 +1,14 @@
 import { memo } from "react"
 
-function Table({ Employeedata,Setflag}) {
+function Table({ Employeedata,flagupdate}) {
     return <table className="table table-striped table-hover" style={{ marginTop: "25px" }}>
         <thead>
             <tr style={{textAlign:"center"}}>
                 <th>Employee_ID</th>
-                <th>Employee_name
-                     
-                </th>
+                <th>Employee_name</th>
                 <th>Employee_role</th>
                 <th>Employee_Department</th>
-                <th onClick={()=>{Setflag(true)}} >Employee_Salary</th>
+                <th onClick={()=>{flagupdate()}} >Employee_Salary <i class="bi bi-sort-numeric-up-alt"></i></th>
             </tr>
         </thead>
         <tbody>

@@ -3,12 +3,12 @@ import DashboardField from './Dashboardmetrics';
 import Table from './EmployeeTable';
 import useEmployeeList from './useEmployeeList';
 
-function EmployeeList() {
-var [data,isLoading,namefilter,SetnameFilter,page,setPage,perPage,totalPages,deparr,newdeparr,Employees]= useEmployeeList()
 
+function EmployeeList() {
+ var [data,isLoading,namefilter,SetnameFilter,flag,Setflag,page,setPage,perPage,totalPages,deparr,newdeparr,Employees,flagupdate] = useEmployeeList()
   return (
     <div style={{ marginLeft: "260px" }}>
-      <h2 style={{color:"white"}}>DASHBOARD</h2>
+      <h2 style={{ color: "white" }}>DASHBOARD</h2>
       <DashboardField data={data} newdeparr={newdeparr}></DashboardField>
 
       <div style={{ height: "350px" }} className='m-4 border border-3 rounded  bg-light '>
@@ -23,7 +23,10 @@ var [data,isLoading,namefilter,SetnameFilter,page,setPage,perPage,totalPages,dep
               </button>
 
               <ul className="dropdown-menu">
-                <li className='dropdown-item' onClick={()=>{SetnameFilter(false)}}><b>Select department</b></li>
+                <li className='dropdown-item' onClick={() => {
+                  SetnameFilter(false)
+                  Setflag(false)
+                }}><b>Select department</b></li>
                 {
                   newdeparr?.map((value) => {
                     return <li key={value} className='dropdown-item' onClick={() => { SetnameFilter(value) }}>{value}</li>
@@ -50,9 +53,13 @@ var [data,isLoading,namefilter,SetnameFilter,page,setPage,perPage,totalPages,dep
             </div>
           </div>
         </div >
-        {
-          isLoading ? <h6>loading...</h6> : <Table Employeedata={Employees} ></Table>
-        }
+
+        <div style={namefilter?{ maxHeight: "250px", overflowY: "auto" }:{}}>
+          {
+            isLoading ? <h6>loading...</h6> : <Table Employeedata={Employees} flagupdate={flagupdate}></Table>
+          }
+        </div>
+
 
       </div>
     </div>

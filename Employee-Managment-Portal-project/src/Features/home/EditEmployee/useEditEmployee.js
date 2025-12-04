@@ -27,11 +27,10 @@ function useEditEmployee() {
                 if (val.name === namefilter) {
                     return true
                 }
-            }).slice(
-                (page - 1) * perPage,
-                page * perPage)
+            })
             return filteredData
         }
+
     }, [data, namefilter, page]);
     var deleteEmployee = useCallback((id) => {
         deleteEmployeefn(id).then(() => {
