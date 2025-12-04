@@ -12,7 +12,7 @@ function Navbar() {
                 <div className="container-fluid" >
                     <div className='ms-2' style={{ display: "flex", alignItems: "center", margin: "10px" }}>
                         <img src="/logoimg.jpeg" style={{ width: "80px" }} className="card-img-top" alt="..." />
-                        <h3 >Employee Portel</h3>
+                        <h3 >Employee Portal</h3>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
