@@ -34,26 +34,7 @@ server.get("/getDetailsByToken", (req, res) => {
     res.send({ msg: "ERROR" })
   }
 })
-// server.use(function(req,res,next){
-//   // console.log(req.headers)
-//   console.log("Middleware called")
-//   // try{
-//   //   var x = jwt.verify(req.headers.token,"evaddiki cheppaku")
-//   //   next();
-//   // }
-//   // catch(e){
-//   //   res.send({msg:"invalid"})
-//   // }
-//   jwt.verify(req.headers.token,"evaddiki cheppaku",function(err,decoded){
-//     if(err){
-//       res.send({msg:"invaliduuuu"})
-//     }
-//     else{
-//       next();
-//     }
-//   })
 
-// })
 server.use(router)
 server.listen(4000, () => {
   console.log('JSON Server is running')
