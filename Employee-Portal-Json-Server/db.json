@@ -1,0 +1,719 @@
+{
+  "users": [
+    {
+      "username": "Hari Madhavan",
+      "email": "harimadhavan@gmail.com",
+      "password": "Madhavan@05",
+      "role": "admin"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Asha R",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 60000
+    },
+    {
+      "id": 2,
+      "name": "Ravi Kumar",
+      "role": "Designer",
+      "department": "Design",
+      "salary": 52000
+    },
+    {
+      "id": 3,
+      "name": "Meena S",
+      "role": "HR Executive",
+      "department": "HR",
+      "salary": 45000
+    },
+    {
+      "id": 4,
+      "name": "Prakash R",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 72000
+    },
+    {
+      "id": 5,
+      "name": "Sanjay T",
+      "role": "Marketing Analyst",
+      "department": "Marketing",
+      "salary": 50000
+    },
+    {
+      "id": 6,
+      "name": "Divya P",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 68000
+    },
+    {
+      "id": 7,
+      "name": "Harini G",
+      "role": "UI/UX Designer",
+      "department": "Design",
+      "salary": 54000
+    },
+    {
+      "id": 8,
+      "name": "Lokesh M",
+      "role": "Sales Executive",
+      "department": "Sales",
+      "salary": 48000
+    },
+    {
+      "id": 9,
+      "name": "Vishal K",
+      "role": "IT Support",
+      "department": "IT Support",
+      "salary": 42000
+    },
+    {
+      "id": 10,
+      "name": "Sneha L",
+      "role": "HR Manager",
+      "department": "HR",
+      "salary": 65000
+    },
+    {
+      "id": 11,
+      "name": "Anil R",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 70000
+    },
+    {
+      "id": 12,
+      "name": "Pooja C",
+      "role": "Marketing Executive",
+      "department": "Marketing",
+      "salary": 47000
+    },
+    {
+      "id": 13,
+      "name": "Kiran V",
+      "role": "Finance Analyst",
+      "department": "Finance",
+      "salary": 59000
+    },
+    {
+      "id": 14,
+      "name": "Nisha P",
+      "role": "Designer",
+      "department": "Design",
+      "salary": 51000
+    },
+    {
+      "id": 15,
+      "name": "Mahesh L",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 65000
+    },
+    {
+      "id": 16,
+      "name": "Hima S",
+      "role": "HR Recruiter",
+      "department": "HR",
+      "salary": 46000
+    },
+    {
+      "id": 17,
+      "name": "Rohit N",
+      "role": "IT Support",
+      "department": "IT Support",
+      "salary": 41000
+    },
+    {
+      "id": 18,
+      "name": "Sangeeta D",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 72000
+    },
+    {
+      "id": 19,
+      "name": "Vikas M",
+      "role": "Sales Manager",
+      "department": "Sales",
+      "salary": 62000
+    },
+    {
+      "id": 20,
+      "name": "Gayathri S",
+      "role": "Digital Marketer",
+      "department": "Marketing",
+      "salary": 50000
+    },
+    {
+      "id": 21,
+      "name": "Surya R",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 68000
+    },
+    {
+      "id": 22,
+      "name": "Teja K",
+      "role": "Support Engineer",
+      "department": "IT Support",
+      "salary": 43000
+    },
+    {
+      "id": 23,
+      "name": "Anjali T",
+      "role": "Designer",
+      "department": "Design",
+      "salary": 52000
+    },
+    {
+      "id": 24,
+      "name": "Charan Y",
+      "role": "Sales Executive",
+      "department": "Sales",
+      "salary": 45000
+    },
+    {
+      "id": 25,
+      "name": "Monica H",
+      "role": "HR Coordinator",
+      "department": "HR",
+      "salary": 44000
+    },
+    {
+      "id": 26,
+      "name": "Tarun P",
+      "role": "Finance Executive",
+      "department": "Finance",
+      "salary": 58000
+    },
+    {
+      "id": 27,
+      "name": "Lavanya V",
+      "role": "Marketing Specialist",
+      "department": "Marketing",
+      "salary": 52000
+    },
+    {
+      "id": 28,
+      "name": "Yogesh B",
+      "role": "IT Support",
+      "department": "IT Support",
+      "salary": 75000
+    },
+    {
+      "id": 29,
+      "name": "Bhavana S",
+      "role": "UI Designer",
+      "department": "Design",
+      "salary": 53000
+    },
+    {
+      "id": 30,
+      "name": "Abhinav R",
+      "role": "IT Technician",
+      "department": "IT Support",
+      "salary": 40000
+    },
+    {
+      "id": 31,
+      "name": "Deepika L",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 69000
+    },
+    {
+      "id": 32,
+      "name": "Harsha U",
+      "role": "Sales Lead",
+      "department": "Sales",
+      "salary": 61000
+    },
+    {
+      "id": 33,
+      "name": "Keerthi P",
+      "role": "HR Specialist",
+      "department": "HR",
+      "salary": 46000
+    },
+    {
+      "id": 34,
+      "name": "Ramesh K",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 78000
+    },
+    {
+      "id": 35,
+      "name": "Shalini D",
+      "role": "Marketing Executive",
+      "department": "Marketing",
+      "salary": 49000
+    },
+    {
+      "id": 36,
+      "name": "Umesh G",
+      "role": "Finance Manager",
+      "department": "Finance",
+      "salary": 67000
+    },
+    {
+      "id": 37,
+      "name": "Priya C",
+      "role": "Designer",
+      "department": "Design",
+      "salary": 52000
+    },
+    {
+      "id": 38,
+      "name": "Srinath R",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 71000
+    },
+    {
+      "id": 39,
+      "name": "Varun M",
+      "role": "Sales Executive",
+      "department": "Sales",
+      "salary": 46000
+    },
+    {
+      "id": 40,
+      "name": "Nandini K",
+      "role": "HR Lead",
+      "department": "HR",
+      "salary": 57000
+    },
+    {
+      "id": 41,
+      "name": "Sushma V",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 65000
+    },
+    {
+      "id": 42,
+      "name": "Gautham Y",
+      "role": "Marketing Manager",
+      "department": "Marketing",
+      "salary": 68000
+    },
+    {
+      "id": 43,
+      "name": "Ritika T",
+      "role": "Graphic Designer",
+      "department": "Design",
+      "salary": 52000
+    },
+    {
+      "id": 44,
+      "name": "Krishna P",
+      "role": "Finance Analyst",
+      "department": "Finance",
+      "salary": 60000
+    },
+    {
+      "id": 45,
+      "name": "Mahima S",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 72000
+    },
+    {
+      "id": 46,
+      "name": "Arjun R",
+      "role": "IT Support",
+      "department": "IT Support",
+      "salary": 41000
+    },
+    {
+      "id": 47,
+      "name": "Sravani P",
+      "role": "HR Executive",
+      "department": "HR",
+      "salary": 45000
+    },
+    {
+      "id": 48,
+      "name": "Sai Teja K",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 76000
+    },
+    {
+      "id": 49,
+      "name": "Vasavi M",
+      "role": "Marketing Analyst",
+      "department": "Marketing",
+      "salary": 51000
+    },
+    {
+      "id": 50,
+      "name": "Ashok L",
+      "role": "Sales Executive",
+      "department": "Sales",
+      "salary": 47000
+    },
+    {
+      "id": 51,
+      "name": "Pavan R",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 69000
+    },
+    {
+      "id": 52,
+      "name": "Tanya S",
+      "role": "UX Designer",
+      "department": "Design",
+      "salary": 54000
+    },
+    {
+      "id": 53,
+      "name": "Lokesh H",
+      "role": "HR Recruiter",
+      "department": "HR",
+      "salary": 45000
+    },
+    {
+      "id": 54,
+      "name": "Madhuri D",
+      "role": "Finance Executive",
+      "department": "Finance",
+      "salary": 58000
+    },
+    {
+      "id": 55,
+      "name": "Chandra V",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 71000
+    },
+    {
+      "id": 56,
+      "name": "Sindhu P",
+      "role": "Marketing Manager",
+      "department": "Marketing",
+      "salary": 62000
+    },
+    {
+      "id": 57,
+      "name": "Naveen K",
+      "role": "IT Support",
+      "department": "IT Support",
+      "salary": 43000
+    },
+    {
+      "id": 58,
+      "name": "Harika S",
+      "role": "Designer",
+      "department": "Design",
+      "salary": 52000
+    },
+    {
+      "id": 59,
+      "name": "Raghu T",
+      "role": "Sales Lead",
+      "department": "Sales",
+      "salary": 61000
+    },
+    {
+      "id": 60,
+      "name": "Vennela R",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 75000
+    },
+    {
+      "id": 61,
+      "name": "Sunny P",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 78000
+    },
+    {
+      "id": 62,
+      "name": "Sriram G",
+      "role": "Designer",
+      "department": "Design",
+      "salary": 51000
+    },
+    {
+      "id": 63,
+      "name": "Janaki L",
+      "role": "HR Executive",
+      "department": "HR",
+      "salary": 44000
+    },
+    {
+      "id": 64,
+      "name": "Chaitanya S",
+      "role": "Finance Analyst",
+      "department": "Finance",
+      "salary": 60000
+    },
+    {
+      "id": 65,
+      "name": "Bhargav R",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 73000
+    },
+    {
+      "id": 66,
+      "name": "Navya P",
+      "role": "Marketing Specialist",
+      "department": "Marketing",
+      "salary": 54000
+    },
+    {
+      "id": 67,
+      "name": "Aravind T",
+      "role": "IT Technician",
+      "department": "IT Support",
+      "salary": 42000
+    },
+    {
+      "id": 68,
+      "name": "Shruthi K",
+      "role": "Designer",
+      "department": "Design",
+      "salary": 53000
+    },
+    {
+      "id": 69,
+      "name": "Shiva A",
+      "role": "Sales Executive",
+      "department": "Sales",
+      "salary": 47000
+    },
+    {
+      "id": 70,
+      "name": "Kavya D",
+      "role": "HR Lead",
+      "department": "HR",
+      "salary": 56000
+    },
+    {
+      "id": 71,
+      "name": "Nikhil R",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 72000
+    },
+    {
+      "id": 72,
+      "name": "Sonia P",
+      "role": "Marketing Manager",
+      "department": "Marketing",
+      "salary": 65000
+    },
+    {
+      "id": 73,
+      "name": "Tejaswini L",
+      "role": "Designer",
+      "department": "Design",
+      "salary": 51000
+    },
+    {
+      "id": 74,
+      "name": "Vishnu K",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 79000
+    },
+    {
+      "id": 75,
+      "name": "Rohini S",
+      "role": "Finance Executive",
+      "department": "Finance",
+      "salary": 57000
+    },
+    {
+      "id": 76,
+      "name": "Suman R",
+      "role": "IT Support",
+      "department": "IT Support",
+      "salary": 41000
+    },
+    {
+      "id": 77,
+      "name": "Charitha V",
+      "role": "HR Specialist",
+      "department": "HR",
+      "salary": 46000
+    },
+    {
+      "id": 78,
+      "name": "Phani K",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 76000
+    },
+    {
+      "id": 79,
+      "name": "Meghana S",
+      "role": "Marketing Analyst",
+      "department": "Marketing",
+      "salary": 52000
+    },
+    {
+      "id": 80,
+      "name": "Suresh P",
+      "role": "Sales Executive",
+      "department": "Sales",
+      "salary": 48000
+    },
+    {
+      "id": 81,
+      "name": "Deekshith R",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 70000
+    },
+    {
+      "id": 82,
+      "name": "Lasya T",
+      "role": "Designer",
+      "department": "Design",
+      "salary": 52000
+    },
+    {
+      "id": 83,
+      "name": "Anusha P",
+      "role": "HR Executive",
+      "department": "HR",
+      "salary": 45000
+    },
+    {
+      "id": 84,
+      "name": "Rahul S",
+      "role": "Finance Manager",
+      "department": "Finance",
+      "salary": 68000
+    },
+    {
+      "id": 85,
+      "name": "Varsha M",
+      "role": "Marketing Executive",
+      "department": "Marketing",
+      "salary": 52000
+    },
+    {
+      "id": 86,
+      "name": "Srikar D",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 75000
+    },
+    {
+      "id": 87,
+      "name": "Jagadeesh Y",
+      "role": "IT Support",
+      "department": "IT Support",
+      "salary": 42000
+    },
+    {
+      "id": 88,
+      "name": "Rithika V",
+      "role": "Designer",
+      "department": "Design",
+      "salary": 53000
+    },
+    {
+      "id": 89,
+      "name": "Mallesh K",
+      "role": "Sales Lead",
+      "department": "Sales",
+      "salary": 61000
+    },
+    {
+      "id": 90,
+      "name": "Harsha R",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 78000
+    },
+    {
+      "id": 91,
+      "name": "Renu S",
+      "role": "HR Manager",
+      "department": "HR",
+      "salary": 63000
+    },
+    {
+      "id": 92,
+      "name": "Vamshi P",
+      "role": "Finance Analyst",
+      "department": "Finance",
+      "salary": 58000
+    },
+    {
+      "id": 93,
+      "name": "Shravani K",
+      "role": "Designer",
+      "department": "Design",
+      "salary": 52000
+    },
+    {
+      "id": 94,
+      "name": "Karthik R",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 77000
+    },
+    {
+      "id": 95,
+      "name": "Gowthami L",
+      "role": "Marketing Lead",
+      "department": "Marketing",
+      "salary": 64000
+    },
+    {
+      "id": 96,
+      "name": "Raviteja N",
+      "role": "IT Support",
+      "department": "IT Support",
+      "salary": 43000
+    },
+    {
+      "id": 97,
+      "name": "Anand S",
+      "role": "Finance Executive",
+      "department": "Finance",
+      "salary": 57000
+    },
+    {
+      "id": 98,
+      "name": "Mounika P",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 76000
+    },
+    {
+      "id": 99,
+      "name": "Srikanth D",
+      "role": "Sales Executive",
+      "department": "Sales",
+      "salary": 47000
+    },
+    {
+      "id": 100,
+      "name": "Pallavi R",
+      "role": "Marketing Analyst",
+      "department": "Marketing",
+      "salary": 53000
+    },
+    {
+      "name": "Juthuka Surya Chaitanya",
+      "role": "Developer",
+      "department": "Engineering",
+      "salary": 30000,
+      "id": 101
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.background-container {
+  background-image: url('https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-adf0-622f-b756-d5dae108c29f/raw?se=2025-08-06T11%3A56%3A22Z&sp=r&sv=2024-08-04&sr=b&scid=1f69da3b-fd9d-5190-ba3d-97da4fa1cdb5&skoid=0da8417a-a4c3-4a19-9b05-b82cee9d8868&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-06T01%3A34%3A19Z&ske=2025-08-07T01%3A34%3A19Z&sks=b&skv=2024-08-04&sig=9zQ74PTo3bdefox3sf4Rwec0qkVrWnvD0TRlbW3nF5Q%3D'); /* relative to public folder */
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  padding: 2rem;
+}
